@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width">
+     <title>FORMS 101</title>
+     <meta rel="stylesheet">
+</head>
+<style>
+    .container {
+        margin-left: 450px;
+        margin-top: 80px;
+        gap: 20px;
+        align-items: start;
+        display: grid;
+    }
+
+
+    .top-section {
+        display: flex;
+      align-items: start;
+      gap: 20px;
+      grid-column: span 2;
+      font-size: x-large;
+    }
+
+    .left-form {
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+    }
+
+
+    .form-section {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        grid-column: span 2;
+    }
+
+    input[type="text"], input[type="email"] {
+        width:300px;
+        padding: 5px;
+    }
+
+    .form-group label {
+        width: 120px;
+
+    }
+
+    .form-group {
+        display:flex;
+        align-items: center;
+    }
+
+    .right-form {
+      margin-left: 10px;
+      margin-top: 25px;
+
+
+    }
+
+    .mid-form {
+      margin-left: 520px;
+      margin-top: -300px;
+      font-size: x-large;
+    }
+    
+
+
+
+
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="top-section">
+        <img src="exercise.jpg" alt="Exercise picture">
+        <p size>Exercise refers to any physical activity that enhances or maintains physical fitness and overall health.<br> It includes a wide range of activities, from structured workouts like running, weightlifting, and yoga,<br> to everyday actions like walking, dancing, or cycling. </p>
+    </div>
+
+    <!-- Top Section -->
+
+     <div class="form-section">
+      <div class="left-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <br>
+        <div class="form-group"><br>
+          <label for="address">Address:</label>
+          <input type="text" id="address">
+        </div>
+        <br>
+        <div class="form-group"><br>
+          <label for="email">Email-Ad:</label>
+          <input type="email" id="email">
+        </div>
+        <br>
+        <div class="form-group">
+          <label for="contact">Contact Number:</label>
+          <input type="text" id="contact">
+        </div>
+        <br>
+
+        <!-- Right form -->
+
+         <div class="mid-form">
+        <div>
+          <strong>Gender:</strong><br>
+          <input type="radio" id="male" name="gender">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender">
+          <label for="female">Female</label>
+        <br></div>
+
+        <div class="right-form">
+            <div>
+            <strong> Hobbies:</strong>
+            <br>
+            <input type="checkbox" id="swimming">
+            <label for="swimming">Swimming</label>
+            <br>
+            <input type="checkbox" id="biking">
+            <label for="biking">Biking</label>
+            <br>
+            <input type="checkbox" id="reading">
+            <label for="reading"> Reading </label>
+            <br>
+            <input type="checkbox" id="Watching">
+            <label for="watching">Watching TV</label>
+            <br>
+            <input type="checkbox" id="playing">
+            <label for="playing">Playing</label>
+
+
+
+        </div>
+
+
+      </div>
+            
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
